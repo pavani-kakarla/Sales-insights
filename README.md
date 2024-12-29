@@ -45,3 +45,8 @@
 1. Formula to create norm_amount column
    = Table.AddColumn(#"Filtered Rows", "norm_amount", each if [currency] = "USD" or [currency] ="USD#(cr)"
      then [sales_amount]*75 else [sales_amount], type any)
+
+## Project Insights
+1. Computer hardware business facing challenges in scaling within a dynamically changing market and lacking actionable insights.
+2. Performed data analysis using SQL and Power BI to track revenue growth, year-over-year(YOY) trends, and region-wise sales performace.
+3. The dashboard enabled quick, data-informed decisions effectively displaying sales trends and potentially raising revenue by atleast 7% in the next quater.
